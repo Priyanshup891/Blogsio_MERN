@@ -1,0 +1,61 @@
+.signup{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signupImage{
+    background: url(https://images.unsplash.com/photo-1512168203104-3910bc2bcd54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex: 1;
+}
+
+.signupWrapper{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 0 4rem;
+}
+
+.signupWrapperTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.signupWrapperSubText{
+    font-size: 14px;
+    font-weight: 500;
+    color: #545454;
+}
+
+.signupWrapperInput{
+    margin-top: 1rem;
+    padding: 0.7rem 0.8rem;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.signupWrapperButton{
+    padding: 0.7rem 0.8rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    border: 4px solid #414141;
+    background-color: #1d1d1d;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.signupWrapperButton:hover{
+    background-color: #414141;
+}

@@ -1,0 +1,93 @@
+.blogDetail{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 6rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blogAuther{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.blogAutherImage{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.blogAutherName{
+    font-size: 18px;
+    color: #888888;
+    font-weight: 400;
+}
+
+.blogDate{
+    font-size: 15.75px;
+    color: #00000080;
+    font-weight: 400;
+}
+
+.blogDetailWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.blogDetailTitle{
+    text-align: center;
+    font-size: 34px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.blogDetailSummery{
+    font-size: 20px;
+    color: #888888;
+    font-weight: 400;
+    text-align: center;
+}
+
+.blogImage{
+    border-radius: 10px;
+}
+
+.blogDetailContent{
+    color: #888888;
+    font-size: 18px;
+}
+
+.blogController{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.blogEditButton{
+    font-size: 14px;
+    padding: 0.3rem 1rem;
+    background-color: rgb(0, 149, 255);
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.blogDeleteButton{
+    font-size: 14px;
+    padding: 0.3rem 1rem;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+}

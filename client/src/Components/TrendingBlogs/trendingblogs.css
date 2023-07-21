@@ -1,0 +1,89 @@
+.trendingBlogs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.trendingBlogsTitle{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.trendingBlogsWrapper{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.trendingBlogsImage{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex: 1;
+    height: 350px;
+}
+
+.trendingBlogsInfo{
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.trendingBlogsCategory{
+    font-size: 14px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.trendingBlogsSubText{
+    font-size: 35px;
+    color: #222222;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.trendingBlogsSummery{
+    font-size: 14px;
+    color: #888888;
+}
+
+.trendingBlogsPrfile{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.trendingBlogsPrfileImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.trendingBlogsProfileText{
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+
+@media screen and (max-width:800px) {
+    .trendingBlogsWrapper{
+        flex-direction: column;
+    }
+
+    .trendingBlogsImage{
+        flex: none;
+    }
+
+    .trendingBlogsSubText{
+        font-size: 30px;
+    }
+}

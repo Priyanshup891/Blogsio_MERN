@@ -1,0 +1,21 @@
+.categoriesWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.categoriesChip{
+    padding: 0.4rem 1rem ;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 14px;
+    background: transparent;
+}
+
+.categoriesChip:hover{
+    background-color: black;
+    color: #fff;
+}

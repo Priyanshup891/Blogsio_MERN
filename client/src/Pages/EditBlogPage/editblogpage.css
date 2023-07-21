@@ -1,0 +1,52 @@
+.editBlog{
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.editBlog form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 5rem;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.editBlog form .blogFormInput{
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.editBlog form .blogFormInput input, select {
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-family:  inherit;
+    font-size: 1rem;
+}
+
+.editBlog form .blogFormInput input:focus, select:focus{
+    outline: none;
+}
+
+.editBlog form button{
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #373737;
+    border: 4px solid #525252;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
