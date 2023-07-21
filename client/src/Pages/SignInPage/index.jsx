@@ -47,7 +47,7 @@ const SignInPage = () => {
     } else {
       try {
         const responce = await axios.post(
-          "http://localhost:8800/api/auth/signin",
+          "https://blogsio-mern.onrender.com/api/auth/signin",
           { email, password }
         );
         localStorage.setItem("access_token", JSON.stringify(responce.data.access_token))

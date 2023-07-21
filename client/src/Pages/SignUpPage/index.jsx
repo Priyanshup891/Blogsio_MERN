@@ -65,7 +65,7 @@ const SignUpPage = () => {
           file
         }
         await axios.post(
-          "http://localhost:8800/api/auth/signup",
+          "https://blogsio-mern.onrender.com/api/auth/signup",
           data
         );
         toast.info("Process is successful");

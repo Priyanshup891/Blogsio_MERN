@@ -48,7 +48,7 @@ const EditBlogPage = () => {
 
   useEffect(() => {
     const getBlogData = async () => {
-      const responce = await axios.get(`http://localhost:8800/api/blog/${id}`);
+      const responce = await axios.get(`https://blogsio-mern.onrender.com/api/blog/${id}`);
       setTitle(responce.data.title);
       setSummery(responce.data.summery);
       setCategory(responce.data.category);
@@ -87,7 +87,7 @@ const EditBlogPage = () => {
 
     const access_token = JSON.parse(localStorage.getItem("access_token"));
     const responce = await axios.put(
-      `http://localhost:8800/api/blog/${id}`,
+      `https://blogsio-mern.onrender.com/api/blog/${id}`,
       data,
       {
         headers: {

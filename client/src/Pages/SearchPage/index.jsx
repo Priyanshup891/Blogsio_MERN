@@ -11,7 +11,7 @@ const SearchPage = () => {
   useEffect(() => {
     const getSearchedBlog = async () => {
       const responce = await axios.get(
-        `http://localhost:8800/api/blog/search/${query}`
+        `https://blogsio-mern.onrender.com/api/blog/search/${query}`
       );
       setSearchedBlogs(responce.data);
     };

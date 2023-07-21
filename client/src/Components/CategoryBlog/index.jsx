@@ -9,7 +9,7 @@ const CategoryBlog = ({ selectCategory }) => {
 
   useEffect(() => {
     const getBlogs = async () => {
-      const responce = await axios.get(`http://localhost:8800/api/blog/`);
+      const responce = await axios.get(`https://blogsio-mern.onrender.com/api/blog/`);
       setBlogs(responce.data);
     };
 

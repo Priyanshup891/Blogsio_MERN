@@ -14,7 +14,7 @@ app.use("/images", express.static(path.join(__dirname, "./public/images")));
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://gentle-hamster-122ed2.netlify.app",
     credentials: true,
   })
 );

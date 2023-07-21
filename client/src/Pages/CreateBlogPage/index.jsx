@@ -67,7 +67,7 @@ const CreateBlogPage = () => {
 
     const access_token = JSON.parse(localStorage.getItem("access_token"));
     const responce = await axios.post(
-      "http://localhost:8800/api/blog/createblog",
+      "https://blogsio-mern.onrender.com/api/blog/createblog",
       data,
       {
         headers: {

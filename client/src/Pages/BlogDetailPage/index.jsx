@@ -18,7 +18,7 @@ const BlogDetailPage = () => {
 
   useEffect(() => {
     const getBlogDetails = async () => {
-      const responce = await axios.get(`http://localhost:8800/api/blog/${id}`);
+      const responce = await axios.get(`https://blogsio-mern.onrender.com/api/blog/${id}`);
       setBlogDetail(responce.data);
     };
 
@@ -28,7 +28,7 @@ const BlogDetailPage = () => {
   const deleteBlog = async () => {
     const access_token = JSON.parse(localStorage.getItem("access_token"));
     await axios
-      .delete(`http://localhost:8800/api/blog/${id}`, {
+      .delete(`https://blogsio-mern.onrender.com/api/blog/${id}`, {
         headers: {
           Authorization: `Bearer ${access_token}`,
         },

@@ -32,7 +32,7 @@ const TrendingBlogs = () => {
   useEffect(() => {
     const getTrendingBlogs = async () => {
       const responce = await axios.get(
-        "http://localhost:8800/api/blog/trendingblogs"
+        "https://blogsio-mern.onrender.com/api/blog/trendingblogs"
       );
       setTrendingBlogs(responce.data);
     };
